@@ -577,6 +577,7 @@
     margin-top: 10px;
     height: 41px;
     width: 323px;
+    /* padding-left: 10px; */
 }
 
 .contact-form {
@@ -586,9 +587,11 @@
     WIDTH: 100%;
     HEIGHT: 25PX;
     MARGIN-BOTTOM: 10PX;
+    padding-left: 10px;
 }
 
 .contact-message {
+    padding-left: 10px;
     width: 100%;
     height: 120px;
     background-color: #f4f4f4;
