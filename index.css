@@ -37,8 +37,8 @@
     margin-right: auto;
     background-color: #fff;
     /* background-image: UNSET; */
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
 }
 
 .custom-background-fill-info {
@@ -69,17 +69,17 @@
 .circle {
     float: left;
     /* display:  inline; */
-    padding-left: 7px;
-    border: 1px solid #ff224a;
+    padding-left: 0.4375em;
+    border: 0.0625em solid #ff224a;
     background-color: #ff224a;
-    height: 33px;
+    height: 2.0625em;
     border-radius: 50%;
-    width: 33px;
-    padding-right: 10px;
+    width: 2.0625em;
+    padding-right: 0.4em;
     text-align: center;
-    padding-top: 4px;
-    margin-left: 4px;
-    margin-right: 4px;
+    padding-top: 0.29em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
 }
 
 .logo-menu {
@@ -93,36 +93,37 @@
     float: left;
     font-weight: bold;
     /* width:  45px; */
-    font-size: 20px;
+    font-size: 1.25em;
     /* display:  inline; */
     margin-bottom: 0px;
     margin-top: 0px;
     /* padding-left: 10px; */
     /* padding-right: 10px; */
-    margin-left: 4px;
-    margin-right: 4px;
-    padding-top: 5px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding-top: 0.25em;
 }
 
 .nav {
+    /* font-size:  1em; */
     /* position: relative; */
-    padding-top: 3px;
+    padding-top: 0.1875em;
     text-align: center;
     padding-left: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    width: 35px;
+    width: 2.1875em;
     float: right;
-    height: 28px;
+    height: 1.75em;
     background-color: #fff;
     border: 1px solid 5px;
-    border: #ff7c94 solid 1px;
-    margin-left: 4px;
-    margin-right: 4px;
+    border: #ff7c94 solid 0.0625em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
 }
 
 .content {
-    padding-bottom: 60px;
+    padding-bottom: 3.75em;
 }
 
 .fill-info {
@@ -141,40 +142,41 @@
 .item-input-info {
     /* border: 1px solid; */
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
 }
 
 .item-select-info {
+    /* text-align:  center; */
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
 }
 
 .custom-icon-select-info {
     position: absolute;
-    left: 5px;
-    top: 2px;
+    left: 0.25em;
+    top: 0.1em;
 }
 
 .custom-icon-input-info {
     position: absolute;
     /* z-index: 1; */
     top: 0.125em;
-    left: 6.1px;
+    left: 0.305em;
 }
 
 .input-item {
-    border: 1px solid #000;
+    border: 0.0625em solid #000;
     display: block;
-    padding-left: 30px;
+    padding-left: 1.875em;
     width: 100%;
-    height: 25px;
+    height: 1.5625em;
 }
 
 .select-item {
-    border: 1px solid #000;
-    padding-left: 29px;
+    border: 0.0625em solid #000;
+    padding-left: 1.8125em;
     width: 100%;
-    height: 25px;
+    height: 1.5625em;
 }
 
 .btn {}
@@ -182,17 +184,19 @@
 .opt-item {}
 
 .btn {
+    text-align: center;
+    font-size: 0.75em;
     WIDTH: 100%;
-    height: 25px;
+    height: 2.5em;
     color: #fff;
     background-color: #ff234a;
     /* padding-left:  0px; */
 }
 
 .fill-info-footer {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 }
 
 .text {
@@ -208,21 +212,22 @@
     color: #ff234a;
     float: right;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .edit-bg-red-recommed-places {
     margin-top: 0px;
     background-color: #ff234a;
     margin-bottom: 0px;
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-bottom: 12px;
-    padding-right: 45px;
+    padding-top: 0.75em;
+    padding-left: 0.75em;
+    padding-bottom: 0.75em;
+    padding-right: 2.8125em;
 }
 
 .edit-bg-question-subscribe {
     background-color: #ff234a;
+    margin-bottom: 0px;
 }
 
 .question-subscribe {
@@ -233,32 +238,32 @@
 }
 
 .question-subscribe-title {
-    font-size: 28px;
+    font-size: 1.75em;
     /* margin: .67em 0; */
     margin-top: 0px;
     margin-bottom: 0px;
     /* text-align: center; */
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 1.428571em;
+    padding-bottom: 0.3571428em;
     color: #fff;
     /* height:  100%; */
 }
 
 .question-subscribe-text {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 1.3em;
     color: #fff;
     /* text-align: center; */
     font-size: 15px;
 }
 
 .subcribe-btn {
-    width: 130px;
-    height: 26px;
+    width: 50%;
+    height: 2.8em;
     /* margin-left: 49px; */
     /* margin-right:  auto; */
     padding-left: 0px;
-    font-size: 9px;
+    font-size: 0.5625em;
     padding-right: 0px;
     border-color: #fff;
 }
@@ -266,48 +271,48 @@
 .arrow-down {
     width: 0;
     height: 0;
-    border-left: 121.5px solid transparent;
-    border-right: 121.5px solid transparent;
-    border-top: 30px solid #ff234a;
+    border-left: 7.53125em solid transparent;
+    border-right: 7.53125em solid transparent;
+    border-top: 1.875em solid #ff234a;
     /* margin-bottom:  80px; */
-    padding-bottom: 80px;
+    padding-bottom: 5em;
     /* text-align:  center; */
 }
 
 .services {
-    padding-bottom: 40px;
+    padding-bottom: 2.5em;
     padding-left: .625em;
     padding-right: .625em;
 }
 
 .hammer {
-    padding-bottom: 50px;
+    padding-bottom: 3.125em;
     text-align: center;
 }
 
 .custom-icon {
-    font-size: 50px;
+    font-size: 3.125em;
     color: #ff234a;
     /* display:  block; */
-    margin-left: 75px;
+    /* margin-left: 1.5em; */
     /* margin-right: auto; */
 }
 
 .service-title {
     text-align: center;
-    margin-top: 16px;
+    margin-top: 1.068376em;
     color: #ff234a;
     font-weight: bold;
 }
 
 .service-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
     text-align: center;
 }
 
 .custom-btn-service {
-    font-size: 10px;
+    font-size: 0.625em;
     background-color: #fff;
     color: #ff234a;
     font-weight: bold;
@@ -316,7 +321,7 @@
     border-bottom: 0px;
     border-right: 0px;
     /* margin-left: 28px; */
-    padding-left: 25px;
+    padding-left: 2.5em;
     /* padding-right:  10px; */
     /* border-color:  green; */
     /* background-color: #878282; */
@@ -333,8 +338,8 @@
 
 .custom-background-places {
     background-color: #f4f4f4;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0.9375em;
+    padding-bottom: 0.9375em;
 }
 
 .places {}
@@ -346,9 +351,9 @@
 .picture-place {
     display: block;
     width: 100%;
-    /* width:  200px; */
-    /* height: 143px; */
-    margin-bottom: 20px;
+    /* width: 145px; */
+    height: 8.75em;
+    margin-bottom: 1.25em;
 }
 
 .content-places {
@@ -356,34 +361,34 @@
 }
 
 .title-place {
-    font-size: 19px;
-    margin-right: 30px;
+    font-size: 1.25em;
+    margin-right: 1.5em;
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: bold;
 }
 
 .content-text-place {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 14px;
+    margin-top: 1.142857em;
+    margin-bottom: 1.142857em;
+    font-size: 0.875em;
 }
 
 .custom-btn-place {
-    width: 165px;
-    height: 25px;
+    width: 75%;
+    height: 1.923076em;
     margin-top: 0px;
-    margin-bottom: 30px;
-    FONT-SIZE: 13px;
+    margin-bottom: 2.307692em;
+    FONT-SIZE: 0.8125em;
 }
 
 .other-places {
-    margin-left: -10px;
+    margin-left: -0.625em;
     /* padding-left:  3.125em; */
-    padding-top: 15px;
+    padding-top: 0.9375em;
     background-color: #f4f4f4;
-    padding-bottom: 20px;
-    margin-right: -10px;
+    padding-bottom: 1.25em;
+    margin-right: -0.625em;
     text-align: center;
 }
 
@@ -394,42 +399,43 @@
     /* width: 165px; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 }
 
 .custom-icon-other-places-first {
     font-size: .25em;
     color: #000;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2.083em;
+    margin-right: 2.083em;
 }
 
 .custom-icon-other-places {
     font-size: .25em;
     color: #aeaeae;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2.083em;
+    margin-right: 2.083em;
 }
 
 .recommended-places-topic {
     color: #fff;
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: 1.0625em;
     font-weight: bold;
 }
 
 .recommended-places-text {
     color: #fff;
-    font-size: 10px;
-    margin-top: 12px;
+    font-size: 0.625em;
+    margin-top: 1.2em;
 }
 
 .recom-places-ref {
     background-color: #fff;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 0.9375em;
+    padding-bottom: 0.3125em;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
 }
 
 .places-ref-item {
@@ -437,7 +443,7 @@
     /* height: 55px; */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     background-color: #f4f4f4;
 }
 
@@ -479,22 +485,22 @@
 .description-place {}
 
 .topic-place {
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 0.625em;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
 }
 
 .des-place-name {
     margin: 0px;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
 }
 
 .name-country {
     color: red;
-    font-size: 22px;
+    font-size: 1.25em;
     /* margin:  0px; */
-    margin-top: 20px;
+    margin-top: 1.25em;
     margin-bottom: 0px;
 }
 
@@ -503,8 +509,8 @@
 }
 
 .des-news-place {
-    border: 1px solid grey;
-    padding: 15px;
+    border: 0.0625em solid grey;
+    padding: 0.9375em;
 }
 
 .item-des-news-place {}
@@ -512,21 +518,21 @@
 .des-new-place-img {
     display: block;
     width: 100%;
-    /* height: 170px; */
+    height: 10.625em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .des-news-place-title {
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 1.5625em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
 }
 
 .des-news-place-text {
     line-height: 2.3;
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 0.875em;
+    margin-bottom: 1.142857em;
     margin-top: 0px;
 }
 
@@ -534,87 +540,88 @@
     color: red;
     background-color: #fff;
     border: none;
-    width: 160px;
+    width: 50%;
     /* height:  15px; */
     font-weight: bold;
-    font-size: 13px;
+    font-size: 0.6875em;
     padding: 0px;
     text-align: justify;
 }
 
 .des-news-place-title-first {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 25px;
+    margin-top: 0.56em;
+    margin-bottom: 0.56em;
+    font-size: 1.5625em;
     color: red;
 }
 
 .item-des-place {
-    padding-top: 15px;
+    padding-top: 1em;
 }
 
 .contact-info {
-    padding-bottom: 40px;
+    padding-bottom: 2.5em;
     background-image: url("hinh.jpg");
     /* opacity: 72; */
-    padding-top: 20px;
+    padding-top: 1.25em;
 }
 
 .map {
     /* padding-top: 92px; */
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .map-address {
     display: block;
     width: 100%;
+    height: 18.75em;
 }
 
 .feedback {}
 
 .feedback {
-    padding-bottom: 20px;
-    PADDING-TOP: 25PX;
-    PADDING-LEFT: 25PX;
+    padding-bottom: 1.25em;
+    PADDING-TOP: 1.5625em;
+    PADDING-LEFT: 1.5625em;
     PADDING-RIGHT: 25PX;
     text-align: center;
 }
 
 .custom-button-contact-info {
-    margin-top: 10px;
-    height: 30px;
-    width: 160px;
+    margin-top: 0.83em;
+    height: 2.5em;
+    width: 13.3em;
     /* padding-left: 10px; */
-    font-size: 12px;
+    font-size: 0.75em;
     text-align: center;
 }
 
 .contact-form {
     display: block;
     background-color: #f4f4f4;
-    font-size: 16px;
+    font-size: 0.875em;
     WIDTH: 100%;
-    HEIGHT: 25PX;
-    MARGIN-BOTTOM: 10PX;
-    padding-left: 10px;
+    HEIGHT: 1.7857142em;
+    MARGIN-BOTTOM: 0.714285em;
+    padding-left: 0.714285em;
 }
 
 .contact-message {
-    padding-left: 10px;
+    padding-left: 0.625em;
     width: 100%;
-    height: 120px;
+    height: 7.5em;
     background-color: #f4f4f4;
 }
 
 .custom-bg-footer {
     background-color: #1b3647;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
 }
 
 .custom-view-range-footer {
     background-color: #1b3647;
-    text-align: center;
+    text-align: justify;
 }
 
 .copyright {
@@ -622,9 +629,11 @@
     margin-bottom: 0;
     color: #fff;
     display: inline;
+    font-size: 0.5em;
 }
 
 .author {
     text-decoration: none;
     color: #812e48;
+    font-size: 0.5em;
 }
