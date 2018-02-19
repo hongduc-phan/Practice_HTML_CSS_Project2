@@ -325,7 +325,7 @@
     padding-top: 130px;
 }
 
-.hammer {
+.icon {
     padding-bottom: 90px;
     text-align: center;
 }
@@ -372,15 +372,10 @@
     border: none;
 }
 
-.flight {
-    padding-bottom: 90px;
-    text-align: center;
-}
-
-.ball {
+.icon:nth-child(3n) {
     text-align: center;
     /* margin-top: 50px; */
-    /* padding-bottom: 50px; */
+    padding-bottom: 0px;
 }
 
 .custom-background-places {
@@ -398,6 +393,10 @@
 .intro-places {}
 
 .main-place {}
+
+.main-place-other {
+    display: none;
+}
 
 .picture-place {
     width: 100%;
@@ -499,7 +498,7 @@
     /* height: 55px; */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.625em;
+    margin-bottom: 15px;
     background-color: #f4f4f4;
 }
 
@@ -609,7 +608,7 @@
 .des-news-place-text {
     line-height: 2.2;
     font-size: 13px;
-    margin-bottom: 25px;
+    margin-bottom: 0;
     margin-top: 0px;
 }
 
@@ -627,11 +626,17 @@
 }
 
 .des-news-place-title-first {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     margin-bottom: 18px;
+    margin-top: 0;
     font-size: 17px;
     color: #ff234a;
     font-weight: bolder;
+}
+
+.custom-text-des {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .item-des-place {
@@ -671,8 +676,6 @@
     width: 100%;
     height: 480px;
 }
-
-.feedback {}
 
 .feedback {
     /* padding-bottom: 1.25em; */
