@@ -79,11 +79,11 @@
 .logo-menu {
     height: 68px;
     /* padding-top: 10px; */
-    /* margin-left: -7.5px; */
-    margin-right: -7.5px;
+    margin-left: -7.5px;
+    /*! margin-right: -7.5px; */
     /* padding-bottom: 10px; */
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .logo-text {
@@ -310,8 +310,8 @@
 .arrow-down {
     width: 0;
     height: 0;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
+    border-left: 49.5vw solid transparent;
+    border-right: 49.5vw solid transparent;
     border-top: 60px solid #ff234a;
     /* margin-bottom:  80px; */
     /* padding-bottom: 130px; */
@@ -656,8 +656,8 @@
 .arrow-down-contact-info {
     width: 0;
     height: 0;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
+    border-left: 49.5vw solid transparent;
+    border-right: 49.5vw solid transparent;
     border-top: 14px solid #fff;
 }
 
