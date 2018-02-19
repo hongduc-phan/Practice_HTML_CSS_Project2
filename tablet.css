@@ -127,8 +127,8 @@
     }
     .triangle-content {}
     .arrow-down {
-        border-left: 49.7vw solid transparent;
-        border-right: 49.7vw solid transparent;
+        border-left: 48vw solid transparent;
+        border-right: 48vw solid transparent;
     }
     .custom-bg-services {
         padding-left: 30px;
@@ -208,8 +208,8 @@
     .place-name {}
     /**/
     .arrow-down-contact-info {
-        border-left: 45.5vw solid transparent;
-        border-right: 45.5vw solid transparent;
+        border-left: 44vw solid transparent;
+        border-right: 44vw solid transparent;
     }
     .des-news-place {
         padding-bottom: 0px;
