@@ -79,9 +79,11 @@
 .logo-menu {
     height: 68px;
     /* padding-top: 10px; */
-    margin-left: -7.5px;
+    /* margin-left: -7.5px; */
     margin-right: -7.5px;
     /* padding-bottom: 10px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-text {
