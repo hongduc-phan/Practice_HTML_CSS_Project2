@@ -27,6 +27,7 @@
         /* position:  relative; */
         margin-left: 6px;
         margin-right: 6px;
+        margin-top: 2px;
     }
     .logo-text {
         font-size: 22px;
@@ -275,4 +276,11 @@
     .custom-view-range-footer {
         text-align: center;
     }
+    .other-places-desktop {
+        display: none;
+    }
+    .nav-desktop {
+        display: none;
+    }
+    .nav-item {}
 }

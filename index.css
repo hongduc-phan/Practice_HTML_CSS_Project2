@@ -57,6 +57,16 @@
     display: table;
 }
 
+.other-places-desktop {
+    display: none;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-item {}
+
 .circle {
     float: left;
     /* font-size: 50px; */
